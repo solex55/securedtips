@@ -1,0 +1,225 @@
+main{
+    color: white;
+}
+.hero-about{
+    min-height: 50vh;
+    background-color: rgb(22, 20, 20);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-about img{
+    width: 600px;
+}
+.values{
+    color: white;
+    margin: 3rem 0;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fa-icon{
+    color: #eec81d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    font-size: 4rem;
+}
+.fa-icon p{
+    font-size: 2rem;
+    padding-top: 1.2rem;
+}
+.vision{
+    width: 30%;
+}
+.goals{
+    width: 30%;
+}
+.mission{
+    width: 30%;
+}
+
+.goals p{
+    text-align: center;
+}
+.goals .fa-icon p{
+    text-align: center;
+}
+.vision p{
+    text-align: center;
+}
+.vision .fa-icon p{
+    text-align: center;
+}
+.mission p{
+    text-align: center;
+}
+.mission .fa-icon p{
+    text-align: center;
+}
+.camera{
+    display: flex;
+    padding: 1rem 1.5rem;
+    justify-content: space-between;
+    background-color: rgb(22, 20, 20);
+}
+.camera h3{
+    color: #eec81d;
+    font-size: 2rem;
+}
+.camera img{
+    height: 300px;
+    width: 400px;
+    padding: 2rem 0;
+}
+.camera p{
+padding: 0 0 2rem 0;
+}
+.camera button{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-bottom: 3px solid #eec81d;
+}
+.camera button:hover{
+    border: 3px solid #eec81d;
+    padding: .5rem;
+}
+.network{
+    padding: 2rem 2rem 2rem 0;
+    width: 50%;
+}
+
+
+.network-2{
+    padding: 2rem 0;
+    width: 50%;
+}
+
+.search{
+    min-height: 50vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.widgets{
+    display: flex;
+    align-items: center;
+    flex: 0.6;
+}
+.widgets input{
+    border: none;
+    outline: none;
+    background-color: #eec81d;
+    color: black;
+    border-radius: 20px 0 0 20px;
+    font-size: 1.6rem;
+    flex: 0.9;
+    padding: 2rem;
+
+}
+
+.widgets .fa-searched{
+/*     background-color: rgb(22, 24, 28);*/
+    font-size: 1.6rem;
+    padding: 2rem;
+    color: #eec81d;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(22, 24, 28);
+}
+
+/* FOR TABLETS */
+@media screen and (min-width: 500px) and (max-width: 1004px) {
+    .goals p{
+        text-align: center;
+    }
+    .goals .fa-icon p{
+        text-align: center;
+    }
+    .vision p{
+        text-align: center;
+    }
+    .vision .fa-icon p{
+        text-align: center;
+    }
+    .mission p{
+        text-align: center;
+    }
+    .mission .fa-icon p{
+        text-align: center;
+    }
+
+    /* CAMERA FEATURES */
+    .camera img {
+        width: -webkit-fill-available;
+    }
+    .network {
+        position: relative;
+    }
+    .network-2 {
+        position: relative;
+    }
+    
+    .camera button {
+        position: absolute;
+        bottom: 0rem;
+    }
+
+    /* SEARCH */
+.search {
+    min-height: 0vh;
+}
+
+.widgets{
+    padding: 2rem;
+}
+
+}
+
+/* FOR MOBILES */
+@media screen and (max-width: 499px) {
+    .nav-menu {
+        top: 4rem;
+    }    
+    .sole{
+        display: none;
+    }
+
+    .camera img {
+        width: -webkit-fill-available;
+    }
+    .network {
+        position: relative;
+    }
+    .network-2 {
+        position: relative;
+    }
+    
+    .camera button {
+        position: absolute;
+        bottom: 0rem;
+    }
+
+    /* SEARCH */
+    .search {
+        min-height: 0vh;
+     }
+    .widgets {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        padding: 2rem;
+    }
+    .widgets input {
+        padding: 2rem 0;
+    }
+}

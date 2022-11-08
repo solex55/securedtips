@@ -537,7 +537,7 @@ footer{
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 4rem;
+        top: 3rem;
         flex-direction: column;
         background-color: black;
         z-index: 4;
@@ -677,7 +677,7 @@ footer{
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 3rem;
         flex-direction: column;
         background-color: black;
         width: 100%;
